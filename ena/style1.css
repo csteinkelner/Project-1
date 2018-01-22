@@ -1,0 +1,21 @@
+.panel-group {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.panel-default>.panel-heading {
+    background-color: transparent;
+    border: none;
+}
+
+.panel-heading {
+    border: none;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+}
+
+.panelHead {
+    font-weight: bold;
+}
