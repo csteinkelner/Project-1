@@ -2,8 +2,8 @@
 
 class Trainer{
 
-	constructor(img, name, surname, age, field_of_experties){
-		this.img = img;
+	constructor(img1, name, surname, age, field_of_experties){
+		this.img1 = img1;
 		this.name = name;
 		this.surname = surname;
 		this.age = age;
@@ -28,13 +28,14 @@ class Trainer{
 		// 		</div>
 		// 	</div>`;
 		let content = `
-			<div class="col-lg-4 col-md-4 col-4" id="content">
+			<div class="col-lg-4 col-md-4 col-4 content">
 				  <div class="avatar-flip">
-				  	<img src='${this.img}' class='pic'>
-				  	<img src='${this.img}' class='pic'>
-				  </div>
 				  <h2>${this.name}</h2>
-				  <h4>HOVER OVER CONTAINER</h4>
+				  <img src= ${this.img1} class='pic'>
+				  </div>
+				  <h2>${this.surname}</h2>
+				  <h3>age: ${this.age}</h3>
+				  <h3>Field of experties: ${this.field_of_experties}
 				  <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
 				  <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		  	</div>
@@ -44,9 +45,9 @@ class Trainer{
 }
 
 var allTrainer =[
-	new Trainer("img/lehrer.jpeg","John", "Doe",30,"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"),
-	new Trainer("img/lehrer.jpeg","fu", "Doe",30,"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"),
-	new Trainer("img/lehrer.jpeg","du", "Doe",30,"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"),
+	new Trainer("img/lehrer.jpeg", "John", "Doe",30,"Lorem ipsum dolor sit amet"),
+	new Trainer("img/lehrer.jpeg", "Pall", "Doe",30,"Lorem ipsum dolor sit amet"),
+	new Trainer("img/lehrer.jpeg","Joe", "Doe",30,"Lorem ipsum dolor sit amet"),
 
 ]
 let place = document.getElementById("place");
