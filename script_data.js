@@ -31,7 +31,7 @@ class Trainer{
 			<div class="col-lg-4 col-md-4 col-4" id="content">
 				  <div class="avatar-flip">
 				  	<img src='${this.img}' class='pic'>
-				  		<img src='${this.img}' class='pic'>
+				  	<img src='${this.img}' class='pic'>
 				  </div>
 				  <h2>${this.name}</h2>
 				  <h4>HOVER OVER CONTAINER</h4>
