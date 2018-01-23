@@ -1,25 +1,31 @@
 body {
     background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+/* INDEX PAGE
+===================================================================================*/
 
 
 /* carousel fullscreen */
 
 .carousel-fullscreen .carousel-inner .item {
-    height: 100vh; 
-    min-height: 600px; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    height: 100vh;
+    min-height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* carousel fullscreen - vertically centered caption*/
 
 .carousel-fullscreen .carousel-caption {
-    top: 50%;  
+    top: 50%;
     bottom: auto;
-    -webkit-transform: translate(0, -50%); 
-    -ms-transform: translate(0, -50%); 
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
 
@@ -35,7 +41,7 @@ header img {
 .navbar {
     margin: 0;
     border-radius: 0;
-    border: none; 
+    border: none;
 }
 
 footer {
@@ -62,19 +68,39 @@ footer {
     font-size: 40px;
 }
 
-
 @media (max-device-width: 800px) {
     header {
         padding-left: 40px;
     }
-
     header img {
-        width:100%;
+        width: 100%;
     }
-    
     .navbar {
         display: flex;
         flex-direction: column;
         align-content: center;
+    }
+}
+
+
+/* CONTACT PAGE
+===================================================================================== */
+
+#title {
+    margin-bottom: 30px;
+}
+
+.box h3 {
+    color: #0F5DA9;
+}
+
+.box span {
+    color: #0F5DA9;
+}
+
+@media (max-device-width: 1200px) {
+    .flex {
+        display: flex;
+        flex-flow: column;
     }
 }

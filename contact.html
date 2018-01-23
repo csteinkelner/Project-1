@@ -1,134 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Contact</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
 
-  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	    crossorigin="anonymous">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	    crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 
-
-    <style>
-    	
-    	.map
-{
-	margin-top:30px;
-}
-.map b
-{
-	color: black;
-}
-
-.map p
-{
-	margin-top:150px;
-	margin-left: 100px;
-	font-family: open sans;
-	font-size: 21px;
-	color: black;
-
-}
-
-.text-center{
-	text-align:left;
-	margin-left: 140px;
-	color: black;
-
-}
- 
-.map1
-{
-	margin-top: 50px;
-	margin-bottom: -90px;
-	margin-left: 40px;
-	color: #0f5da9;
-}
-.map2
-{
-	color: #821918;
-	margin-top: 50px;
-	margin-bottom: -90px;
-	margin-left: 160px;
-} 
-
-    </style>
 
 </head>
+
 <body>
 
+	<header>
+		<a href="index.html">
+			<img src="img/logo1.png">
+		</a>
+	</header>
 
-<section class="map">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class=" pull-right" id="myNavbar">
+				<ul class="nav navbar-nav ">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Certified Adminstrator</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="about_us.html">About us</a>
+					</li>
+					<li>
+						<a href="# ">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-	<div class="container-map">
-		<h3 class="text-center">HERE YOU CAN FIND US</h3>
+	<!-- main content
+================================================================== -->
+
+
+	<h2 id="title" class="text-center">YOU CAN FIND US HERE</h2>
+	<div class="container flex">
+		<div class="row">
+			<div class="col-sm-12 col-lg-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.528085545072!2d16.357226815651067!3d48.19644337922819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0786715af1b5%3A0xeb42ce721183b4!2sKettenbr%C3%BCckengasse+23%2C+1050+Wien!5e0!3m2!1sde!2sat!4v1516631584628"
+				    width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<h3 class="name">CodeFactory Vienna</h3>
+				<p>
+					<span class="glyphicon glyphicon-map-marker"></span>
+					Kettenbrückengasse 23/2/12 1050 Wien
+					<br>
+					<span class="glyphicon glyphicon-phone-alt"></span>
+					+43 660 6673655
+					<br>
+					<span class="glyphicon glyphicon-envelope"></span>
+					office@codefactory.wien
+				</p>
+			</div>
+
+			<div class="col-sm-12 col-lg-6">
+				<iframe class="pull-right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.7251117882274!2d16.370027715651602!3d48.21191047922949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07a23bce2515%3A0xc4682d521a3f2896!2sSterngasse+11%2C+1010+Wien!5e0!3m2!1sde!2sat!4v1516629449458"
+				    width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="col-sm-12 col-lg-6 pull-right">
+					<h3 class="pull-right">NTx BackOffice Consulting Group GesmbH</h3>
+					<br>
+					<p class="">
+						Sterngasse 11 1010 Wien
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<br> +43 1 532 40 32
+						<span class="glyphicon glyphicon-phone-alt"></span>
+						<br> office@ntx.at
+						<span class="glyphicon glyphicon-envelope"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 	</div>
 
-<div class="col-md-6">
-	<h3 class="map1">NTx BackOffice Consulting Group GesmbH.</h3>
-		<p>	<i class="glyphicon glyphicon-map-marker"></i>
-			<b>Our Location: </b> Sterngasse 11 1010 Wien<br>
-
-			<i class="glyphicon glyphicon-phone-alt"></i>
-			<b>Call us: </b>+43 1 532 40 32<br>
-
-			<i class="glyphicon glyphicon-envelope"></i>
-			<b>Our E-Mail-Adress: </b>office@ntx.at<br>
-
-			<br>
-			<br>
-
-			
-		</p>
-	</div>
-
-<div class="col-md-6">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.7251117882274!2d16.370027715651602!3d48.21191047922949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07a23bce2515%3A0xc4682d521a3f2896!2sSterngasse+11%2C+1010+Wien!5e0!3m2!1sde!2sat!4v1516629449458" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</div>
-
-</section>
-
-<br>
-
-<section class="map">
-
-	<div class="container-map">
-		<h3 class="text-center">HERE YOU CAN FIND US</h3>
-	</div>
-
-<div class="col-md-6">
-	<h3 class="map2">CodeFactory Vienna</h3>
-		<p>	<i class="glyphicon glyphicon-map-marker"></i>
-			<b>Our Location: </b>Kettenbrückengasse 23/2/12 1050 Wien<br>
-
-			<i class="glyphicon glyphicon-phone-alt"></i>
-			<b>Call us: </b>+43 660 6673655<br>
-
-			<i class="glyphicon glyphicon-envelope"></i>
-			<b>Our E-Mail-Adress: </b>office@codefactory.wien<br>
-
-			<br>
-			<br>
-
-			
-		</p>
-	</div>
-
-<div class="col-md-6">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.528085545072!2d16.357226815651067!3d48.19644337922819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0786715af1b5%3A0xeb42ce721183b4!2sKettenbr%C3%BCckengasse+23%2C+1050+Wien!5e0!3m2!1sde!2sat!4v1516631584628" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</div>
-
-</section>
+	<footer>
+		&copy; Lorem ipsum
+	</footer>
 
 
 </body>
+
 </html>
