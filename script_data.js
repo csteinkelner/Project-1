@@ -11,22 +11,6 @@ class Trainer{
 		// this.id=id;
 	}
 	render(){
-		// let content = `
-		// 	<div class="row">
-		// 		<div class="col-lg-10 col-m-10 col-10">
-		// 			<div class='row'>
-		// 				<div class='col-6'>
-		// 					<img src='${this.img}' class='pic'>
-		// 				</div>
-		// 				<div class='col-6 text'> 
-		// 					Name: <b> ${this.name}</b><br>
-		// 					Surname: <b> ${this.surname}</b><br>
-		// 					Age: <b> ${this.age} </b> <br>
-		// 					Field of Experties: <b>${this.field_of_experties}</b>
-		// 				</div>
-		// 			</div>
-		// 		</div>
-		// 	</div>`;
 		let content = `
 			<div class="col-lg-4 col-md-4 col-4 content">
 				  <div class="avatar-flip">
