@@ -16,23 +16,27 @@ body {
   background-color: #f0f0f0;
   font-family: roboto;
 }
-#content {
-  /* width: 400px; */
+.content {
+   /* width: 400px; */
   margin-top: 120px;
   background-color: #fff;
   padding: 0 20px 20px;
   border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
   text-align: center;
 }
-#content:hover .avatar-flip {
+.content:hover .avatar-flip {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
 }
-#content:hover .avatar-flip img:first-child {
+.content:hover .avatar-flip img:first-child {
   opacity: 0;
 }
-#contenet:hover .avatar-flip img:last-child {
+.content:hover .avatar-flip img:last-child {
   opacity: 1;
 }
 .avatar-flip {
@@ -44,13 +48,15 @@ body {
   margin: auto;
   top: -60px;
   transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   box-shadow: 0 0 0 13px #f0f0f0;
-  box-shadow: 0 0 0 13px #f0f0f0;
-  box-shadow: 0 0 0 13px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+  -moz-box-shadow: 0 0 0 13px #f0f0f0;
+  background-color: #0F5DA9;
 }
 .avatar-flip img {
+	width: 100%;
   position: absolute;
   left: 0;
   top: 0;
