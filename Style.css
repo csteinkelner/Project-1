@@ -1,5 +1,4 @@
 body {
-    background-color: #f0f0f0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,9 +41,10 @@ header img {
     margin: 0;
     border-radius: 0;
     border: none;
+    padding-top: 0;
 }
 
-footer {
+.footer {
     text-align: center;
     padding: 20px 0;
     background-color: #222222;
@@ -104,3 +104,56 @@ footer {
         flex-flow: column;
     }
 }
+
+/* COURSES PAGE
+================================================================================================= */
+.section-spacing {
+    padding: 4.5em 0;
+}
+
+.features.section-spacing {
+    padding-bottom: 2.25em;
+}
+
+.features h2,
+.product-features h4 {
+    margin-top: 0;
+}
+
+.features h2 {
+    margin-bottom: 1.5em;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.product-features {
+    margin-bottom: 3em;
+}
+
+.product-features p {
+    margin-bottom: 0;
+    color: #888;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.boxes {
+    border: 1px solid black;
+    padding: 30px;
+    min-width: 500px;
+}.boxes:hover {
+    box-shadow: 2px 2px 1px 0;
+}
+
+.boxes li {
+    list-style-type: none;
+}
+
+
